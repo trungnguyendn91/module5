@@ -1,0 +1,17 @@
+
+<label>Number 1: </label>
+<input type="number" [(ngModel)]="num1">
+<br>
+<br>
+<label>Number 2: </label>
+<input type="number" [(ngModel)]="num2">
+<br>
+<br>
+<button (click)="Calculator($event.target.value)" value="+">+</button>
+<button (click)="Calculator($event.target.value)" value="-">-</button>
+<button (click)="Calculator($event.target.value)" value="*">*</button>
+<button (click)="Calculator($event.target.value)" value="/">/</button>
+<br>
+<br>
+<div>result: {{ result }}</div>
+
