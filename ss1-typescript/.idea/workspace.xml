@@ -19,7 +19,73 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="070754ad-baa4-448d-af20-2ae431b005c5" name="Default Changelist" comment="" />
+    <list default="true" id="070754ad-baa4-448d-af20-2ae431b005c5" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../Case-study-angular/radission-gh-pages/customer.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Case-study-angular/radission-gh-pages/about-us.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Case-study-angular/radission-gh-pages/blog.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Case-study-angular/radission-gh-pages/blog.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Case-study-angular/radission-gh-pages/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Case-study-angular/radission-gh-pages/contact.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Case-study-angular/radission-gh-pages/css/responsive.css" beforeDir="false" afterPath="$PROJECT_DIR$/../Case-study-angular/radission-gh-pages/css/responsive.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Case-study-angular/radission-gh-pages/facility.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Case-study-angular/radission-gh-pages/facility.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Case-study-angular/radission-gh-pages/gallery.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Case-study-angular/radission-gh-pages/gallery.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Case-study-angular/radission-gh-pages/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Case-study-angular/radission-gh-pages/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Case-study-angular/radission-gh-pages/rooms.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Case-study-angular/radission-gh-pages/rooms.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Case-study-angular/radission-gh-pages/scss/_feature.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../Case-study-angular/radission-gh-pages/scss/_feature.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Case-study-angular/radission-gh-pages/single-blog.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Case-study-angular/radission-gh-pages/single-blog.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../angular-change-font-size/.editorconfig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../angular-change-font-size/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../angular-change-font-size/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../angular-change-font-size/angular.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../angular-change-font-size/browserslist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../angular-change-font-size/e2e/protractor.conf.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../angular-change-font-size/e2e/src/app.e2e-spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../angular-change-font-size/e2e/src/app.po.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../angular-change-font-size/e2e/tsconfig.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../angular-change-font-size/karma.conf.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../angular-change-font-size/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../angular-change-font-size/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../angular-change-font-size/src/app/angular-product-list/angular-product-list.component.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../angular-change-font-size/src/app/angular-product-list/angular-product-list.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../angular-change-font-size/src/app/angular-product-list/angular-product-list.component.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../angular-change-font-size/src/app/angular-product-list/angular-product-list.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../angular-change-font-size/src/app/angular-show-pet-info/angular-show-pet-info.component.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../angular-change-font-size/src/app/angular-show-pet-info/angular-show-pet-info.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../angular-change-font-size/src/app/angular-show-pet-info/angular-show-pet-info.component.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../angular-change-font-size/src/app/angular-show-pet-info/angular-show-pet-info.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../angular-change-font-size/src/app/app-routing.module.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../angular-change-font-size/src/app/app.component.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../angular-change-font-size/src/app/app.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../angular-change-font-size/src/app/app.component.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../angular-change-font-size/src/app/app.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../angular-change-font-size/src/app/app.module.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../angular-change-font-size/src/app/calculator/calculator.component.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../angular-change-font-size/src/app/calculator/calculator.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../angular-change-font-size/src/app/calculator/calculator.component.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../angular-change-font-size/src/app/calculator/calculator.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../angular-change-font-size/src/app/color/color.component.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../angular-change-font-size/src/app/color/color.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../angular-change-font-size/src/app/color/color.component.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../angular-change-font-size/src/app/color/color.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../angular-change-font-size/src/app/font-size-editor/font-size-editor.component.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../angular-change-font-size/src/app/font-size-editor/font-size-editor.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../angular-change-font-size/src/app/font-size-editor/font-size-editor.component.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../angular-change-font-size/src/app/font-size-editor/font-size-editor.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../angular-change-font-size/src/app/pet.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../angular-change-font-size/src/assets/.gitkeep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../angular-change-font-size/src/environments/environment.prod.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../angular-change-font-size/src/environments/environment.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../angular-change-font-size/src/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../angular-change-font-size/src/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../angular-change-font-size/src/main.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../angular-change-font-size/src/polyfills.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../angular-change-font-size/src/styles.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../angular-change-font-size/src/test.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../angular-change-font-size/tsconfig.app.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../angular-change-font-size/tsconfig.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../angular-change-font-size/tsconfig.spec.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../angular-change-font-size/tslint.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercise/fibonaci/src/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/exercise/fibonaci/src/index.ts" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -45,7 +111,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/practice/typescript-variable" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../angular" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -53,7 +119,7 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="ts.external.directory.path" value="D:\C0422G1\module5\typescript-variable\node_modules\typescript\lib" />
+    <property name="ts.external.directory.path" value="D:\C0422G1\module5\ss1-typescript\practice\typescript-is-prime\node_modules\typescript\lib" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -71,6 +137,7 @@
       <option name="presentableId" value="Default" />
       <updated>1663723921334</updated>
       <workItem from="1663723922849" duration="1475000" />
+      <workItem from="1663903538491" duration="351000" />
     </task>
     <servers />
   </component>
@@ -87,12 +154,13 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="463" y="119" key="FileChooserDialogImpl" timestamp="1663731425901">
+    <state x="463" y="119" key="FileChooserDialogImpl" timestamp="1663903891342">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="463" y="119" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1663731425901" />
+    <state x="463" y="119" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1663903891342" />
     <state x="339" y="162" key="run.anything.popup" timestamp="1663730808807">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
