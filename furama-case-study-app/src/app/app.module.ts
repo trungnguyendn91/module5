@@ -7,6 +7,11 @@ import { NavbarComponent } from './navbar/navbar.component';
 import { FooterComponent } from './footer/footer.component';
 import { HomeComponent } from './home/home.component';
 import { RoomListComponent } from './room-list/room-list.component';
+import { CustomerListComponent } from './customer-list/customer-list.component';
+import { CreateCustomerComponent } from './create-customer/create-customer.component';
+import { EditCustomerComponent } from './edit-customer/edit-customer.component';
+import { CreateFacilityComponent } from './create-facility/create-facility.component';
+import { EditFacilityComponent } from './edit-facility/edit-facility.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +19,12 @@ import { RoomListComponent } from './room-list/room-list.component';
     NavbarComponent,
     FooterComponent,
     HomeComponent,
-    RoomListComponent
+    RoomListComponent,
+    CustomerListComponent,
+    CreateCustomerComponent,
+    EditCustomerComponent,
+    CreateFacilityComponent,
+    EditFacilityComponent
   ],
   imports: [
     BrowserModule,

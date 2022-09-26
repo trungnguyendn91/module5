@@ -1,0 +1,27 @@
+.about_area {
+  position: relative; }
+.about_area:after {
+  content: '';
+  position: absolute;
+  top: 70%;
+  left: 0;
+  right: 0;
+  bottom: -23.4%;
+  width: 100%;
+  background: #f1f9ff;
+  z-index: -1; }
+@media (max-width: 767px) {
+  .about_area:after {
+    bottom: -36.4%; } }
+.about_area.rooms:after {
+  bottom: -48.4%; }
+.section_gap {
+  padding: 150px 0; }
+@media (max-width: 991px) {
+  .section_gap {
+    padding: 70px 0; } }
+.background{
+  background-color: #9fcdff;
+  margin: auto;
+  top: auto;
+}
