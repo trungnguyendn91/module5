@@ -1,0 +1,92 @@
+.home_banner_area {
+  position: relative;
+  z-index: 1;
+  min-height: 780px; }
+.home_banner_area .banner_inner {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  min-height: 780px; }
+.home_banner_area .banner_inner .bg-parallax {
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0.15)),
+  url(/assets/img/furama/Furama-Đà-Nẵng-Resort.jpg) no-repeat scroll center center;
+  background-size: cover;
+  height: 110%;
+  z-index: -1; }
+.home_banner_area .banner_inner .banner_content {
+  color: #fff; }
+.home_banner_area .banner_inner .banner_content h5 {
+  text-transform: uppercase;
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  font-weight: normal;
+  margin-bottom: 15px; }
+.home_banner_area .banner_inner .banner_content h1 {
+  font-size: 120px;
+  line-height: 60px;
+  font-family: "Playfair Display", serif;
+  font-weight: 900;
+  margin-bottom: 60px;
+  color: #fff; }
+@media (max-width: 767px) {
+  .home_banner_area .banner_inner .banner_content h1 {
+    font-size: 60px;
+    margin-bottom: 10px; } }
+.home_banner_area .banner_inner .banner_content .top-text {
+  text-align: right;
+  max-width: 506px;
+  margin: auto;
+  font-size: 16px;
+  text-transform: uppercase;
+  font-weight: 500;
+  letter-spacing: 3px;
+  margin-bottom: -10px; }
+@media (max-width: 767px) {
+  .home_banner_area .banner_inner .banner_content .top-text {
+    max-width: 50%; } }
+@media (max-width: 320px) {
+  .home_banner_area .banner_inner .banner_content .top-text {
+    max-width: 53%;
+    margin-bottom: 10px; } }
+.home_banner_area .banner_inner .banner_content .text {
+  max-width: 620px;
+  margin: auto; }
+@media (max-width: 320px) {
+  .home_banner_area .banner_inner .banner_content .text {
+    display: none; } }
+.home_banner_area .banner_inner .banner_content .vdo-btn {
+  margin-top: 50px; }
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0; }
+.main_btn {
+  display: inline-block;
+  background: #4d8eff;
+  padding: 0px 34px;
+  color: #fff;
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 48px;
+  border-radius: 0px;
+  outline: none !important;
+  box-shadow: none !important;
+  text-align: center;
+  border: 1px solid #4d8eff;
+  cursor: pointer;
+  transition: all 300ms linear 0s;
+}
+.main_btn:hover {
+  background: transparent;
+  color: #4d8eff; }
+.mt-45 {
+  margin-top: 50px;
+}
+.background{
+  background-color: #9fcdff;
+  margin: auto;
+  top: auto;
+}

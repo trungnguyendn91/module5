@@ -1,5 +1,5 @@
 <!--================Home Banner Area =================-->
-<section class="home_banner_area">
+<section class="home_banner_area"  >
   <div class="banner_inner d-flex align-items-center">
     <div class="overlay bg-parallax" data-stellar-ratio="2" data-stellar-vertical-offset="0" data-background=""></div>
     <!-- <div class="overlay overlay-bg"></div> -->
@@ -7,12 +7,7 @@
       <div class="banner_content text-center">
         <p class="top-text">Chào Mừng Đến Với</p>
         <br>
-        <h1>Furama Resort</h1>
-        <p class="text">KHU NGHỈ DƯỠNG ĐẲNG CẤP THẾ GIỚI, FURAMA ĐÀ NẴNG,
-          NỔI TIẾNG LÀ KHU NGHỈ DƯỠNG ẨM THỰC TẠI VIỆT NAM..</p>
-        <a class="play-btn" href="https://www.youtube.com/watch?v=0YT3hj2TLb8">
-          <img src="img/video-icon.png" class="vdo-btn" alt="">
-        </a>
+        <h1 style="font-family: 'Bauhaus 93'">Furama Resort</h1>
       </div>
     </div>
   </div>
@@ -20,25 +15,28 @@
 <!--================End Home Banner Area =================-->
 
 <!--================About Area =================-->
-<section class="about_area section_gap">
+<section class="about_area section_gap background" >
   <div class="container">
+    <div style="text-align: center">
+      <br>
+      <h2>KHU NGHỈ DƯỠNG ĐẲNG CẤP THẾ GIỚI</h2>
+    </div>
     <div class="row">
       <div class="col-lg-6">
         <div class="main_title">
-          <h3 >
-            Khu Nghĩ Dưỡng Ẩm Thưc <br>
+          <h3 style="text-align: center; width: 70%; margin: auto">
+            Khu Nghĩ Dưỡng Ẩm Thực <br>
             Tọa Lạc Tại Bãi Biển Đà Nẵng <br>
             Một Trong 6 Bãi Biển Đẹp Nhất Thế Giới
           </h3>
           <div class="bottom_part">
-            <p style="text-align: center">
+            <p style="text-align: center; width: 70%; margin: auto">
               Khu nghỉ dưỡng có 196 phòng được thiết kế theo phong cách truyền thống Việt Nam kết hợp
               với phong cách Pháp, 2 tòa nhà 4 tầng có hướng nhìn ra biển, nhìn ra hồ bơi trong xanh
               và những khu vườn nhiệt đới xanh tươi mát. Ngoài ra, khu nghỉ dưỡng Furama còn cung cấp
               các liệu pháp spa, phòng xông hơi ướt, phòng xông hơi khô, dịch vụ mát-xa cạnh hồ bơi,
               các dịch vụ thể thao dưới nước và các lớp tập yoga và Thái Cực Quyền trên bãi biển.
             </p>
-            <a href="rooms.html" class="main_btn mt-45">Danh Sách Phòng</a>
           </div>
         </div>
       </div>
@@ -50,13 +48,14 @@
                  allowfullscreen>
         </iframe>
       </div>
+      <a href="rooms.html" class="main_btn mt-45">Danh Sách Phòng</a>
     </div>
   </div>
 </section>
 <!--================End About Area =================-->
 
 <!-- Start Our Room Area -->
-<section style="margin: auto">
+<section class="background">
   <div class="container-fluid">
     <div class="row">
       <div class="col-lg-12">
@@ -72,60 +71,75 @@
         </div>
       </div>
     </div>
-    <div class="row align-items-center our_room_area">
+    <div class="row align-items-center">
       <div class="col-lg-12" style="text-align: center">
-        <div class="owl-carousel owl-room">
-          <div class="room_right">
-            <div class="row">
-              <div class="col-lg-6 ">
-                <h1 class="price">
-                  Ẩm thực
-                </h1>
-                <p style="text-align: left">Trải nghiệm ẩm thực tại Khu nghỉ có sự pha trộn độc đáo các món ăn truyền thống Việt Nam
-                  với nhiều những hương vị ẩm thực châu Á, Ý và châu Âu cùng các món bò nhập khẩu thượng hạng
-                  tại đa dạng các nhà hàng, quầy bar đẳng cấp được bao quanh bởi một khu vườn nhiệt đới
-                  hay hướng mình ra biển, đón những hơi thở mát mẻ thổi về từ biển đông. .
-                </p>
+        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <div class="row">
+                <div class="col-lg-6 ">
+                  <h1 class="price">
+                    Ẩm thực
+                  </h1>
+                  <p style="text-align: center; width: 70%; margin: auto">Trải nghiệm ẩm thực tại Khu nghỉ có sự pha trộn độc đáo các món ăn truyền thống Việt Nam
+                    với nhiều những hương vị ẩm thực châu Á, Ý và châu Âu cùng các món bò nhập khẩu thượng hạng
+                    tại đa dạng các nhà hàng, quầy bar đẳng cấp được bao quanh bởi một khu vườn nhiệt đới
+                    hay hướng mình ra biển, đón những hơi thở mát mẻ thổi về từ biển đông. .
+                  </p>
+                </div>
+                <div class="col-lg-6">
+                  <img src="/assets/img/CULIRARY.jpg" style="width: 70%; height: 70%; margin: auto"/>
+                </div>
               </div>
-              <div class="col-lg-6">
-                <img src="img/CULIRARY.jpg"/>
+            </div>
+            <div class="carousel-item">
+              <div class="row">
+                <div class="col-lg-6 col-md-5">
+                  <h1 class="price">
+                    Giải trí
+                  </h1>
+                  <p style="text-align: center; width: 70%; margin: auto">Biến kỳ nghỉ dưỡng năng động hơn bằng cách tham gia các hoạt động thể thao trên nước
+                    từ chèo thuyền catamaran, lướt ván buồm, chèo thuyền trên biển, lướt vát,
+                    đi xe đạp nước, trượt nước, lướt ván, chuối, dù lượn và đa dạng các hoạt động.
+                  </p>
+                </div>
+                <div class="col-lg-6 col-md-5">
+                  <img src="/assets/img/RECREATION (2).jpg"  style="width: 70%; height: 70%; margin: auto"/>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="row">
+                <div class="col-lg-6 col-md-5">
+                  <h1 class="price">
+                    Sự kiện
+                  </h1>
+                  <p style="text-align: center; width: 70%; margin: auto">Cung hội nghị Quốc tế International Convention Palace (ICP)
+                    với phòng Hội nghị lớn sức chứa lên tới 1000 khách cùng hơn 10 phòng
+                    chức năng phụ trợ quy mô từ 50 đến 300 khách được trang bị cơ sở vật chất,
+                    thiết bị hiện đại, là địa điểm lý tưởng dành cho các đoàn MICE tổ chức hội nghị,
+                    hội thảo và sự kiện.
+                  </p>
+                </div>
+                <div class="col-lg-6 col-md-5">
+                  <img src="/assets/img/02.-ICP-ICP_Furama_Danang_-Ball-Room-4.jpg"  style="width: 70%; height: 70%; margin: auto"/>
+                </div>
               </div>
             </div>
           </div>
-          <div class="room_right">
-            <div class="row">
-              <div class="col-lg-6 col-md-5">
-                <h1 class="price">
-                  Giải trí
-                </h1>
-                <p style="text-align: left">Biến kỳ nghỉ dưỡng năng động hơn bằng cách tham gia các hoạt động thể thao trên nước
-                  từ chèo thuyền catamaran, lướt ván buồm, chèo thuyền trên biển, lướt vát,
-                  đi xe đạp nước, trượt nước, lướt ván, chuối, dù lượn và đa dạng các hoạt động.
-                </p>
-              </div>
-              <div class="col-lg-6 col-md-5">
-                <img src="img/RECREATION (2).jpg"/>
-              </div>
-            </div>
-          </div>
-          <div class="room_right">
-            <div class="row">
-              <div class="col-lg-6 col-md-5">
-                <h1 class="price">
-                  Sự kiện
-                </h1>
-                <p style="text-align: left">Cung hội nghị Quốc tế International Convention Palace (ICP)
-                  với phòng Hội nghị lớn sức chứa lên tới 1000 khách cùng hơn 10 phòng
-                  chức năng phụ trợ quy mô từ 50 đến 300 khách được trang bị cơ sở vật chất,
-                  thiết bị hiện đại, là địa điểm lý tưởng dành cho các đoàn MICE tổ chức hội nghị,
-                  hội thảo và sự kiện.
-                </p>
-              </div>
-              <div class="col-lg-6 col-md-5">
-                <img src="img/02.-ICP-ICP_Furama_Danang_-Ball-Room-4.jpg"/>
-              </div>
-            </div>
-          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
         </div>
       </div>
     </div>

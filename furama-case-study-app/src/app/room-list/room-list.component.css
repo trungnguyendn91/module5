@@ -1,0 +1,23 @@
+.main_btn {
+  display: inline-block;
+  background: #4d8eff;
+  padding: 0px 34px;
+  color: #fff;
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 48px;
+  border-radius: 0px;
+  outline: none !important;
+  box-shadow: none !important;
+  text-align: center;
+  border: 1px solid #4d8eff;
+  cursor: pointer;
+  transition: all 300ms linear 0s;
+}
+.main_btn:hover {
+  background: transparent;
+  color: #4d8eff; }
+.mt-45 {
+  margin-top: 50px;
+}
