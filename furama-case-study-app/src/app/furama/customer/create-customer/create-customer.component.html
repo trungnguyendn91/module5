@@ -1,1 +1,53 @@
-<p>create-customer works!</p>
+<div class="container w-50 mt-4 p-2 mb-4" style="border: 1px solid grey; border-radius: 15px">
+  <h1 style="text-align: center">Thêm Mới Khách Hàng</h1>
+  <button><a routerLink="/customer">Quay lại danh sách khách hàng</a></button>
+  <div style="text-align: center">
+    <form [formGroup]="customerForm" (ngSubmit)="submit()">
+      <div class="col-md-12">
+        <label class="form-label">Loại khách </label>
+        <select class="form-select" formControlName="customerType">
+          <option *ngFor="let temp of customerTypeList" [ngValue]="temp">{{temp.nameCustomerType}}</option>
+        </select>
+      </div>
+
+      <div class="col-md-12">
+        <label for="name" class="form-label">Họ tên</label>
+        <input class="form-control " type="text" formControlName="name" id="name">
+      </div>
+      <div class="col-md-12">
+        <label for="birthday" class="form-label">Ngày sinh </label>
+        <input id="birthday" class="form-control" type="date"formControlName="dateOfBirth">
+      </div>
+      <div class="col-md-12">
+        <label for="gender" class="form-label me-4">Giới tính </label>
+        <select id="gender" class="form-select" formControlName="gender" name="gender">
+          <option [value]="'Nam'">Nam</option>
+          <option [value]="'Nữ'">Nữ</option>
+        </select>
+      </div>
+      <div class="col-md-12">
+        <label for="id_card" class="form-label">Số CMND/CCCD</label>
+        <input id="id_card" class="form-control" type="text" formControlName="idCard">
+      </div>
+      <div class="col-md-12">
+        <label for="phone" class="form-label">Số Điện Thoại</label>
+        <input id="phone" class="form-control" type="text" formControlName="phoneNumber">
+      </div>
+      <div class="col-md-12 ">
+        <label for="email" class="form-label">Email </label>
+        <input id="email" class="form-control" type="text" formControlName="email">
+      </div>
+      <div class="col-md-12 ">
+        <label for="address" class="form-label">Địa chỉ </label>
+        <input id="address" class="form-control" type="text" formControlName="address">
+      </div>
+      <div class="col-md-12">
+        <br>
+        <button type="submit">Thêm mới</button>
+        <button type="reset">Hủy</button>
+      </div>
+    </form>
+  </div>
+
+</div>
+

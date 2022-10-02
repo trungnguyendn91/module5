@@ -1,52 +1,34 @@
 import { Injectable } from '@angular/core';
 import {Facility} from '../../model/facility/facility';
+import {Observable} from 'rxjs';
+import {HttpClient} from '@angular/common/http';
 
 @Injectable({
   providedIn: 'root'
 })
 export class FacilityService {
-  facilityList: Facility[] = [
-    {
-      id: 1,
-      name: 'PHÒNG SUITE HƯỚNG BIỂN',
-      area: 85.8,
-      cost: 10000000,
-      maxPeople: 10,
-      standardRoom: 'vip',
-      descriptionOther: 'Có hồ bơi',
-      poolArea: 500,
-      numberFloor: 4,
-      facilityFree: 'Karaoke',
-      image: 'https://furamavietnam.com/wp-content/uploads/2018/03/Vietnam_Danang_Furama_Lagoon-Superior-twin-bed-F-370x239.jpg',
-      rentType: {
-        id: 1,
-        name: 'year'
-      },
-      facilityType: {
-        id: 1,
-        name: 'Villa'
-      }
-    }];
-  getAllFacility() {
-    return this.facilityList;
+  private URL_FACILITY = 'http://localhost:3000/facility';
+
+  constructor(private http: HttpClient) {
   }
-  saveProduct(facility) {
-    this.facilityList.push(facility);
+
+  getAllFacility(): Observable<Facility[]> {
+    return this.http.get<Facility[]>(this.URL_FACILITY)
   }
-  findById(id: number) {
-    return this.facilityList.find(facility => facility.id === id);
+
+  findById(id: number): Observable<Facility> {
+    return this.http.get<Facility>(this.URL_FACILITY + '/' + id)
   }
-  updateProduct(id: number, facility: Facility) {
-    for (let i = 0; i < this.facilityList.length; i++) {
-      if (this.facilityList[i].id === id) {
-        this.facilityList[i] = facility;
-      }
-    }
+
+  deleteFacility(id: any): Observable<Facility> {
+    return this.http.delete<Facility>(this.URL_FACILITY + '/' + id)
   }
-  deleteProduct(id: number) {
-    this.facilityList = this.facilityList.filter(facility => {
-      return facility.id !== id;
-    });
+
+  saveFacility(facility: Facility): Observable<Facility> {
+    return this.http.post<Facility>(this.URL_FACILITY, facility)
   }
-  constructor() { }
+
+  editFacility(id: number, facility): Observable<Facility> {
+    return this.http.patch<Facility>(this.URL_FACILITY + '/' + id, facility)
+  }
 }

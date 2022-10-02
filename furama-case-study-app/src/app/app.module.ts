@@ -15,6 +15,8 @@ import { EditFacilityComponent } from './furama/facility/edit-facility/edit-faci
 import { ContactListComponent } from './furama/contact/contact-list/contact-list.component';
 import { FacilityContactComponent } from './furama/contact/facility-contact/facility-contact.component';
 import { FacilityDetailComponent } from './furama/facility/facility-detail/facility-detail.component';
+import {HttpClientModule} from '@angular/common/http';
+import {ReactiveFormsModule} from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -34,7 +36,9 @@ import { FacilityDetailComponent } from './furama/facility/facility-detail/facil
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule,
+    ReactiveFormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import {Component, OnInit} from '@angular/core';
 import {Facility} from '../../../model/facility/facility';
 import {FacilityService} from '../../../service/facility-service/facility.service';
 
@@ -10,13 +10,41 @@ import {FacilityService} from '../../../service/facility-service/facility.servic
 })
 export class RoomListComponent implements OnInit {
   facilityList: Facility [] = [];
-  constructor(private facilityService: FacilityService) { }
-  ngOnInit() {
-    this.getAll();
+  facilityDetail: Facility;
+  delete = [];
+
+  constructor(private facilityService: FacilityService) {
   }
 
+  ngOnInit(): void {
+    this.facilityService.getAllFacility().subscribe(date => {
+      this.facilityList = date;
+    });
+  }
 
-  private getAll() {
-    this.facilityList = this.facilityService.getAllFacility();
+  detailService(id: number) {
+    this.facilityService.findById(id).subscribe(data => {
+      this.facilityDetail = data;
+    });
+  }
+
+  facilityDelete(id: number, name: string) {
+    this.delete.push(id);
+    this.delete.push(name);
+    return this.delete;
+  }
+
+  resetDelete() {
+    this.delete = [];
+  }
+
+  deleteFacility(id: any) {
+    this.facilityService.deleteFacility(id).subscribe(() => {
+      this.delete = [];
+    }, error => {
+      console.log(error);
+    }, () => {
+      this.ngOnInit();
+    });
   }
 }
