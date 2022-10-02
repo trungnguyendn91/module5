@@ -1,4 +1,7 @@
 import { Component, OnInit } from '@angular/core';
+import {Facility} from '../../../model/facility/facility';
+import {FacilityService} from '../../../service/facility-service/facility.service';
+
 
 @Component({
   selector: 'app-room-list',
@@ -6,10 +9,14 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./room-list.component.css']
 })
 export class RoomListComponent implements OnInit {
-
-  constructor() { }
-
-  ngOnInit(): void {
+  facilityList: Facility [] = [];
+  constructor(private facilityService: FacilityService) { }
+  ngOnInit() {
+    this.getAll();
   }
 
+
+  private getAll() {
+    this.facilityList = this.facilityService.getAllFacility();
+  }
 }

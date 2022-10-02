@@ -20,7 +20,11 @@ import { CountdownTimerComponent } from './countdown-timer/countdown-timer.compo
 import { TodoComponent } from './todo/todo.component';
 import { RegisterComponent } from './register/register.component';
 import { LoginComponent } from './login/login.component';
+import {HttpClientModule} from '@angular/common/http';
+import { TodoNewComponent } from './todo/todo/todo-new/todo-new.component';
+import { TodoUpdateComponent } from './todo/todo/todo-update/todo-update.component';
 
+// @ts-ignore
 @NgModule({
   declarations: [
     AppComponent,
@@ -39,13 +43,16 @@ import { LoginComponent } from './login/login.component';
     CountdownTimerComponent,
     TodoComponent,
     RegisterComponent,
-    LoginComponent
+    LoginComponent,
+    TodoNewComponent,
+    TodoUpdateComponent
   ],
     imports: [
         BrowserModule,
         AppRoutingModule,
         FormsModule,
-        ReactiveFormsModule
+        ReactiveFormsModule,
+        HttpClientModule
     ],
   providers: [],
   bootstrap: [AppComponent]

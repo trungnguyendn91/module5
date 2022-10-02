@@ -1,97 +1,23 @@
 <div class="container-fluid">
   <div class="row">
-    <div class="col-lg-4" style="border: #1a1e21">
+    <h3 style="text-align: center">Danh sách dịch vụ</h3>
+    <div class="col-lg-4" style="border: #1a1e21" *ngFor="let facility of facilityList; index as i">
       <div class="card">
         <img class=" card-img-top"
-             src="https://furamavietnam.com/wp-content/uploads/2018/03/Vietnam_Danang_Furama_Lagoon-Superior-twin-bed-F-370x239.jpg"
-             alt="">
-        <div class="card-body">
-            <h6 class="card-text text-center">PHÒNG SUITE HƯỚNG BIỂN</h6>
-            <br>
-            <p style="text-align: center">Diện Tích Phòng: 85.8 m<sup>2</sup></p>
-            <br>
+             [src]="facility.image">
+        <div class="card-body" style="text-align: center">
+            <h6 class="card-text text-center">{{facility.name}}</h6>
+          <label class="form-label">Diện tích </label>
+            <span style="text-align: center">{{facility.area}} m<sup>2</sup></span>
+          <br>
+          <label class="form-label">Giá: </label>
+            <span style="text-align: center">{{facility.cost}}</span>
         </div>
-        <span style="text-align: center"><a href="" class="main_btn mt-45">Edit</a>
-           <a href="" class="main_btn mt-45">View</a>
-           <a href="" class="main_btn mt-45">Delete</a></span>
-      </div>
-    </div>
-    <div class="col-lg-4" style="border: #1a1e21">
-      <div class="card">
-        <img class=" card-img-top"
-             src="https://furamavietnam.com/wp-content/uploads/2018/03/Vietnam_Danang_Furama_Ocean-Studio-Suite-F-370x239.jpg"/>
-        <div class="card-body">
-            <h6  class="card-text text-center">PHÒNG SUITE HƯỚNG BIỂN</h6>
-            <br>
-            <p style="text-align: center">Diện Tích Phòng: 40.1m<sup>2</sup></p>
-            <br>
-        </div>
-        <span style="text-align: center"><a href="" class="main_btn mt-45">Edit</a>
-           <a href="" class="main_btn mt-45">View</a>
-           <a href="" class="main_btn mt-45">Delete</a></span>
-      </div>
-    </div>
-    <div class="col-lg-4" style="border: #1a1e21">
-      <div class="card">
-        <img class=" card-img-top "
-             src="https://furamavietnam.com/wp-content/uploads/2018/03/Vietnam_Danang_Furama_Ocean-Deluxe-double-bed-F-370x239.jpg"
-             alt=""/>
-        <div class="card-body">
-          <h6  class="card-text text-center">PHÒNG DELUXE HƯỚNG BIỂN</h6>
-          <br>
-          <p style="text-align: center">Diện Tích Phòng: 43.7m<sup>2</sup></p>
-          <br>
-        </div>
-        <span style="text-align: center"><a href="" class="main_btn mt-45">Edit</a>
-           <a href="" class="main_btn mt-45">View</a>
-           <a href="" class="main_btn mt-45">Delete</a></span>
-      </div>
-    </div>
-    <div class="col-lg-4" style="border: #1a1e21">
-      <div class="card">
-        <img class=" card-img-top"
-             src="https://furamavietnam.com/wp-content/uploads/2018/03/Vietnam_Danang_Furama_Lagoon-Superior-twin-bed-F-370x239.jpg">
-        <div class="card-body">
-          <h6 class="card-text text-center">PHÒNG SUPERIOR HƯỚNG HỒ</h6>
-          <br>
-          <p style="text-align: center">Diện Tích Phòng: 40.1m<sup>2</sup></p>
-          <br>
-        </div>
-        <span style="text-align: center"><a href="" class="main_btn mt-45">Edit</a>
-           <a href="" class="main_btn mt-45">View</a>
-           <a href="" class="main_btn mt-45">Delete</a></span>
-      </div>
-    </div>
-    <div class="col-lg-4" style="border: #1a1e21">
-      <div class="card">
-        <img class=" card-img-top"
-             src="https://furamavietnam.com/wp-content/uploads/2018/08/Vietnam_Danang_Furama_Garden-Deluxe-twin-bed-F-370x239.jpg"
-             alt="">
-        <div class="card-body">
-          <h6  class="card-text text-center">PHÒNG DELUXE HƯỚNG VƯỜN</h6>
-          <br>
-          <p style="text-align: center">Diện Tích Phòng: 40.1m<sup>2</sup></p>
-          <br>
-        </div>
-        <span style="text-align: center"><a href="" class="main_btn mt-45">Edit</a>
-           <a href="" class="main_btn mt-45">View</a>
-           <a href="" class="main_btn mt-45">Delete</a></span>
-      </div>
-    </div>
-    <div class="col-lg-4" style="border: #1a1e21">
-      <div class="card">
-        <img class=" card-img-top"
-             src="https://furamavietnam.com/wp-content/uploads/2018/03/Presidential-Suite-F-370x239.jpg"
-             alt="">
-        <div class="card-body">
-          <h6  class="card-text text-center">PHÒNG PRESIDENTIAL SUITE</h6>
-          <br>
-          <p style="text-align: center">Diện Tích Phòng: 103 m<sup>2</sup></p>
-          <br>
-        </div>
-        <span style="text-align: center"><a href="" class="main_btn mt-45">Edit</a>
-           <a href="" class="main_btn mt-45">View</a>
-           <a href="" class="main_btn mt-45">Delete</a></span>
+        <span style="text-align: center">
+          <button [routerLink]="['/facility/update', facility.id]">Update</button>
+          <button [routerLink]="['/facility/detail', facility.id]">Detail</button>
+          <button [routerLink]="['/facility/delete', facility.id]">Delete</button>
+        </span>
       </div>
     </div>
   </div>

@@ -15,13 +15,13 @@
 .header_area .navbar .nav .nav-item .nav-link {
   font: 500 13px/100px "Roboto", sans-serif;
   text-transform: uppercase;
-  color: #222222;
+  color: white;
   padding: 0px;
   display: inline-block; }
 .header_area .navbar .nav .nav-item .nav-link:after {
   display: none; }
 .header_area .navbar .nav .nav-item:hover .nav-link, .header_area .navbar .nav .nav-item.active .nav-link {
-  color: #4d8eff; }
+  color: rebeccapurple; }
 .header_area .navbar .nav .nav-item.submenu {
   position: relative; }
 .header_area .navbar .nav .nav-item.submenu ul {
@@ -143,4 +143,10 @@
   cursor: pointer;
   margin-top: 27px;
   margin-bottom: 23px;
+}
+#sticky {
+  position: fixed;
+  top:150px;
+  width: 1300px;
+  margin: auto;
 }

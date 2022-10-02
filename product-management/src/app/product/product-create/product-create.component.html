@@ -1,0 +1,31 @@
+<div class="container w-50 mt-4 p-2 mb-4" style="border: 1px solid grey; border-radius: 15px">
+  <h1 style="text-align: center">Tạo sản phẩm mới</h1>
+<div style="text-align: center">
+  <form [formGroup]="productForm" (ngSubmit)="submit()">
+      <div class="col-md-12">
+        <label>Tên sản phẩm: </label>
+        <p><input type="text" formControlName="name" style="width: auto"></p>
+      </div>
+      <div class="col-md-12">
+        <label>Giá sản phẩm: </label>
+        <p><input type="number" formControlName="price" style="width: auto"></p>
+      </div>
+      <div class="col-md-12">
+        <label>Mô tả về sản phẩm: </label>
+        <p><input type="text" formControlName="description" style="width: auto"></p>
+      </div>
+      <div class="col-md-12">
+          <label>Loại sản phẩm: </label><br>
+          <select formControlName="category" style="width: auto; text-align: center">
+            <option *ngFor="let product of categoryList; index as i" [ngValue]="product">{{product.name}}</option>
+          </select>
+      </div>
+      <div class="col-md-12">
+        <br>
+          <button>Tạo mới</button>
+        <button><a routerLink="/">Quay lai trang sản phẩm</a></button>
+      </div>
+  </form>
+</div>
+
+</div>

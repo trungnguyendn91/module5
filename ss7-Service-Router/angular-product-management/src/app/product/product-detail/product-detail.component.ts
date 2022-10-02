@@ -14,9 +14,10 @@ export class ProductDetailComponent implements OnInit {
     activatedRoute.paramMap.subscribe((paramMap: ParamMap) => {
       const  id = paramMap.get('id');
       if (id != null) {
+        // tslint:disable-next-line:radix
         this.product = this.productService.findById(parseInt(id));
       }
-    })
+    });
   }
 
   ngOnInit(): void {
